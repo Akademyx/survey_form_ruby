@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <% flash.each do |key, value| %>
+    <div id="error">
+        <h1><%= value  %></h1>
+    </div>
+    <% end %>
+    <div>
+        <p>Name: <%= @name %></p>
+        <p>Dojo Location: <%= @loc %></p>
+        <p>Favorite Language: <%= @lang %></p>
+        <p>Comments: <%= @comment %></p>
+    </div>
+</div>
+

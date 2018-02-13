@@ -1,0 +1,30 @@
+<div class="wrapper">
+    
+    <h1>Form Creation</h1>
+    
+    <form method="post" action="/creat">
+        <input name="authenticity_token" value="<%= form_authenticity_token%>" type="hidden">
+        <p> Enter Name:
+            <input type="text" name="name" placeholder="Enter name">
+        </p>
+        <p> Select location
+            <select name="loc">
+                <option value=1>Mountain View</option>
+                <option value=2>Seattle</option>
+                <option value=3>Burbank</option>
+            </select>
+        </p>
+        <p> Select Language
+            <select name="lang">
+                <option value=1>Javascript</option>
+                <option value=2>Python</option>
+                <option value=3>Ruby</option>
+            </select>
+        </p>
+        <p>Comment</p>
+        <p>
+            <textarea type="text" name="comment"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+.wrapper {
+    height: 500px;
+    width: 500px;
+    border: solid black 1px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#error{
+    height: 50px;
+    width: auto;
+    border: solid black 1px;
+    background-color: green;
+}
